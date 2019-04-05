@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Javascript</title>
+		<script src="js/funcoes.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>			
+		<div class="main">
+		<form name="calc">
+		<input class="visor" type="text" id="visor" name="visor">	
+		<table>
+			</tr>
+			<tr>				
+				<th><input class="button" type="button" id="num7" name="name7" value="MC"></th>
+				<th><input class="button" type="button" id="num8" name="name8" value="MR"></th>
+				<th><input class="button" type="button" id="num9" name="name9" value="MS"></th>
+				<th><input class="button" type="button" id="divisao" name="divisao" value="M+"></th>
+				<th><input class="button" type="button" id="porcento" name="porcento" value="M-"></th>
+			</tr>
+			<tr>
+				<th><input class="button" type="button"  id="<" name="<" value="<" onclick="back()"></th>
+				<th><input class="button" type="button" id="num8" name="name8" value="CE"></th>
+				<th><input class="button" type="button" id="c" name="c" value="C" onclick="clean()"></th>
+				<th><input class="button" type="button" id="divisao" name="divisao" value="±"></th>
+				<th><input class="button" type="button" id="porcento" name="porcento" value="√"></th>
+			</tr>
+			<tr>
+				<th><input class="button" type="button" id="num7" name="name7" value="7" onclick="insert(7)"></th>
+				<th><input class="button" type="button" id="num8" name="name8" value="8" onclick="insert(8)"></th>
+				<th><input class="button" type="button" id="num9" name="name9" value="9" onclick="insert(9)"></th>
+				<th><input class="button" type="button" id="divisao" name="divisao" value="/" onclick="insert('/')"></th>
+				<th><input class="button" type="button" id="porcento" name="porcento" value="%" onclick="insert('%')"></th>
+			</tr>
+			<tr>
+				<th><input class="button" type="button" id="num4" name="name4" value="4" onclick="insert(4)"></th>
+				<th><input class="button" type="button" id="num5" name="name5" value="5"onclick="insert(5)" ></th>
+				<th><input class="button" type="button" id="num4" name="name4" value="6" onclick="insert(6)"> </th>
+				<th><input class="button" type="button" id="divisao" name="multiplicação" value="*" onclick="insert('*')"></th>
+				<th><input class="button" type="button" id="porcento" name="porcento" value="1/x"></th>
+			</tr>
+			<tr>
+				<th><input class="button" type="button" id="num7" name="name7" value="3" onclick="insert(3)"></th>
+				<th><input class="button" type="button" id="num8" name="name8" value="2" onclick="insert(2)"></th>
+				<th><input class="button" type="button" id="num9" name="name9" value="1" onclick="insert(1)"></th>
+				<th><input class="button" type="button" id="divisao" name="divisao" value="-" onclick="insert('-')"></th>
+				<td rowspan="2"><input class="button2" type="button" id="divisao" name="divisao" value="=" onclick="equal()"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input class="button0" type="button" id="num7" name="name7" value="0" onclick="insert(0)"></th>
+				<th><input class="button" type="button" id="num8" name="name8" value=","onclick="insert(',')"></th>
+				<th><input class="button" type="button" id="num9" name="name9" value="+"onclick="insert('+')"></th>
+			</tr>
+			
+		
+		
+
+
+		</form>
+		</table>
+	</body>
+</html>
+

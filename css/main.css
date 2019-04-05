@@ -1,0 +1,36 @@
+.button{
+	width:50px;
+	height:50px;
+	font size:25px;
+	margin:2px;
+	cursor:pointer;
+}
+.visor{
+	position: static;
+	width: 286px;
+	height:25px;
+	font-size: 20px;
+
+}
+.button2{
+	width:50px;
+	height:107px;
+	font size:25px;
+	margin:2px;
+	cursor:pointer;
+}
+.button0{
+	width:108px;
+	height:50px;
+	font size:25px;
+	margin:2px;
+	cursor:pointer;
+}
+.main{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	background:blue;
+}
+
